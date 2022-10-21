@@ -1,0 +1,65 @@
+tornado==4.5.3
+pyzmq == 16.0.4
+configobj == 5.0.6
+boto == 2.49.0
+pymongo == 3.12.1
+markupsafe<2.1 # markupsafe 2.1 breaks jinja2
+Jinja2 == 2.10.3
+mmh3 == 2.5.1
+pycryptodome == 3.11.0
+sendgrid == 0.5.1
+ujson == 5.2.0
+hiredis == 1.1.0
+motor == 2.5.1
+xmltodict == 0.9.0
+beautifulsoup4 == 4.10.0
+numpy == 1.21.3
+FileChunkIO == 1.8
+requests == 2.26.0
+urllib3 >= 1.26.6
+yieldpoints == 0.1
+slacker == 0.5.7
+cassandra-driver==3.24.0
+python-memcached==1.54
+gevent==1.3.0
+botocore==1.21.35
+dnspython==2.0.0
+boto3==1.18.35
+psycopg2==2.9.1
+Momoko==2.2.5.1
+joblib==0.9.3
+celery==4.3.0
+psutil==5.7.0
+lru-dict==1.1.6
+six==1.12.0
+elasticsearch==6.4.0
+requests-aws4auth==0.9
+google-api-python-client==1.6.2
+certifi==2018.4.16
+iso-639==0.4.5
+redis==4.2.0
+msgpack==0.6.0
+git+https://github.com/mrjoes/toredis.git@c5c3264273524c565319b85395982cfa74c00453#egg=toredis==0.1.2
+editdistance==0.4
+pyOpenSSL==19.0.0
+pem==18.2.0
+ftfy==5.7
+pyenchant==2.0.0
+pycurl==7.43.0.3
+future==0.18.2
+tornado-prometheus==0.1.1
+prometheus-client==0.7.1  # version pinned by tornado-prometheus 0.1.1
+lmdb==0.98
+vine==1.3.0
+cryptography==2.8
+regex==2021.7.5
+jwcrypto==0.8
+gql==2.0.0
+emoji==1.6.1
+typing-extensions==3.10.0.2
+confluent-kafka==1.8.2 --only-binary confluent-kafka
+azure-identity==1.10.0 --only-binary azure-identity
+# FIXME
+setuptools-scm --only-binary setuptools-scm
+importlib-metadata --only-binary importlib-metadata
+zipp --only-binary zipp
